@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Monda';
+    src: url('../fonts/Monda.ttf');
+    font-weight: 400;
+}
+
+html,body,div,span,applet,
+object,iframe,h1,h2,h3,h4,
+h5,h6,p,blockquote,pre,a,
+abbr,acronym,address,big,
+cite,code,del,dfn,em,img,
+ins,kbd,q,s,samp,small,
+strike,strong,sub,sup,tt,
+var,b,u,i,center,dl,dt,dd,
+ol,ul,li,fieldset,form,
+label,legend,table,caption,
+tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details
+,embed,figure,figcaption,footer,
+header,hgroup,menu,nav,output,ruby,
+section,summary,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	font: 1em 'Monda', sans-serif;
+}
+div {
+	display: block;
+}
+/*Page wrapping content*/
+#wrapper {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+/*Header*/
+header {
+	z-index: 950;
+	color: #67A2D6;
+	position: fixed;
+	min-height: 100px;
+	height: 100px;
+	background: #fff;
+	width: 100%;
+	-webkit-box-shadow: 0 7px 18px rgba(0,0,0,0.2);
+	box-shadow: 0 7px 18px rgba(0,0,0,0.2);
+}
+
+header #logo {
+	margin-left: 17.5%;
+	margin-right: 65%;
+	vertical-align: middle;
+}
+
+header #logo img {
+	float: left;
+	margin-top: 2.5%;
+}
+
+header #logo h1 {
+	position: relative;
+	font-size: 0.95em;
+	top: 30px;
+	left: 15px;
+}
+/*Menu within header*/
+#menu {
+	position: relative;
+	top: 40px;
+	font-size: 1.2em;
+	margin-right: 15%;
+	text-align: right;
+}
+.menu {
+	display: inline;
+	padding: 0 10px 0;
+}
+
+.menu a {
+	-webkit-transition: color 0.35s ease-out;
+	-moz-transition: color 0.35s ease-out;
+	transition: color 0.35s ease-out;
+	color: #67A2D6;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color: #7bc1ff;
+}
+/*Multiple classes for each section's content*/
+.one {
+	padding-top: 80px;
+}
+/*About Section*/
+#about-intro {
+	position: relative;
+	overflow: hidden;
+	height: 350px;
+	width: 100%;
+}
+
+.two {
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+	color: #667681;
+	padding-top: 50px;
+}
+
+.two img{
+	float: left;
+	padding-right: 28px;
+	margin: 0;
+}
+
+.four {
+	padding-top: 25px;
+}
+
+.four p {
+	color: #667681;
+}
+
+.four #teampics {
+	text-align: center;
+}
+
+.four #teampics img {
+	height: 200px;
+	width: 188px;
+}
+/*Portfolio Section*/
+
+/*Contact Section*/
+
+
+/*Stock Css for each section*/
+.all {
+	clear: both;
+	max-height: 350px;
+	min-height: 350px;
+	font-size: 1.75em;
+}
+#content-wrap {
+	color: #fff;
+}
+.gradient {
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+.gradient-style-container {
+	display: block;
+	position: relative;
+	height: 350px;
+	margin: 0 auto;
+	width: 730px;
+	overflow: hidden;
+}
+/*"one" "two" and "three" are for each gradient chronological*/
+#one {
+	margin-top: 100px;
+	background: #fff url('../images/back-1.png') no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+#two {
+	background: url('../images/back-2.png') no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+#three {
+	background: url('../images/back-3.png') no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+/*The styleing for gradient (drop shadow)*/
+.styles {
+	-webkit-box-shadow: 0 -7px 18px rgba(0,0,0,0.2) inset, 0 7px 18px rgba(0,0,0,0.2) inset;
+	box-shadow: 0 -7px 18px rgba(0,0,0,0.2) inset, 0 7px 18px rgba(0,0,0,0.2) inset;
+}

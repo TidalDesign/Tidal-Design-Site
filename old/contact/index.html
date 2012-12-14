@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<title>Tidal Design | Contact</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css"/>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	</head>
+
+<body>
+<div id="navbar">
+			<ol>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="">Contact</a></li>
+			</ol>
+		</div>
+<div id="contactpage">
+<form name="contactForm" method="post" action="contact.php">
+<h2>Get in touch with us. We are all ears.</h2>
+
+	<span>Name: </span><input name="name" type="text" class="nameform" id="nameform" title="formname" dir="ltr" lang="english" placeholder="John Smith" size="40px" maxlength="100" />
+
+	<p><span>Email: </span>	<input name="email" type="email" class="emailform" id="emailform" title="emailform" dir="ltr" lang="english" placeholder="me@example.com" size="40px" maxlength="100" /></p>
+
+	<p><span>Phone Number: </span><input name="phone" type='tel' class="phonenumb" id="phonenumb" title="phonenumb" dir="ltr" lang="english" placeholder="(555) 555-5555" size="30px" maxlength="15" /></p> 
+
+	<p>How did you hear about us?<p>
+		
+	
+			<input type="checkbox" name="howdid_0"
+			onclick="if(this.checked) {document.contactForm.howdid_1.checked=false;} {document.contactForm.howdid_2.checked=false;}"> Internet Search
+	<br>
+			
+			<input type="checkbox" name="howdid_1"
+			onclick="if(this.checked) {document.contactForm.howdid_0.checked=false;} {document.contactForm.howdid_2.checked=false;}"> Family or Friends
+	<br>
+	
+		<input type="checkbox" name="howdid_2"
+			onclick="if(this.checked) {document.contactForm.howdid_0.checked=false;} {document.contactForm.howdid_1.checked=false;}"> Other
+	<br>
+	
+	
+</select>
+
+<p>Give us a quick idea of how we can help:</p>
+	<textarea name="request" id="request" rows="9" cols="40"></textarea>
+	<p><input id="submit" type="submit"></p>
+
+	</form>
+
+</div>
+</body>
+</html>
