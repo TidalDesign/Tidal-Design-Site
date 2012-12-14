@@ -22,7 +22,6 @@ section,summary,time,mark,audio,video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	transition: color 1s;
 }
 
 p {
