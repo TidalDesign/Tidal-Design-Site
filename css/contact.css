@@ -1,7 +1,6 @@
 @font-face {
-    font-family: 'Monda';
-    src: url('../fonts/Monda.ttf');
-    font-weight: 400;
+    font-family: 'Museo';
+    src: url('../fonts/Museo.ttf');
 }
 
 html,body,div,span,
@@ -24,13 +23,8 @@ section,summary,time,mark,audio,video {
 	border: 0;
 }
 
-p {
-	text-align: center;
-	font: 1em 'Monda', sans-serif;
-}
-
 body {
-	font: 1em 'Monda', sans-serif;
+	font: 1em 'Museo', sans-serif;
 }
 
 div {

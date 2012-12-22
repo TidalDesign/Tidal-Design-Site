@@ -1,7 +1,6 @@
 @font-face {
-    font-family: 'Monda';
-    src: url('../fonts/Monda.ttf');
-    font-weight: 400;
+    font-family: 'Museo';
+    src: url('../fonts/Museo.ttf');
 }
 
 html,body,div,span,
@@ -24,15 +23,23 @@ section,summary,time,mark,audio,video {
 	border: 0;
 }
 
-p {
-	text-align: center;
-	font: 1em 'Monda', sans-serif;
-}
-
 body {
-	font: 1em 'Monda', sans-serif;
+	font: 1em 'Museo', sans-serif;
 	background: url('../images/back-2.png') no-repeat;
 	background-size: cover;
+}
+
+p {
+	text-align: center;
+}
+
+h1 {
+	z-index: 999;
+	top: 40%;
+	position: relative;
+	left: 8%;
+	color: white;
+	font-size: 4em;
 }
 
 div {
@@ -47,11 +54,11 @@ div {
 /*Header*/
 header {
 	z-index: 950;
-	color: #000000;
+	color: #00000;
 	position: fixed;
 	min-height: 100px;
 	height: 100px;
-	background: #FFFFFF;
+	background: #ffffff;
 	width: 100%;
 	-webkit-box-shadow: 0 7px 18px rgba(0,0,0,0.2);
 	box-shadow: 0 7px 18px rgba(0,0,0,0.2);
@@ -74,7 +81,24 @@ header #logo h1 {
 	top: 30px;
 	left: 15px;
 }
+
+#headport {
+	background-image:url('../images/tree.jpg'); 
+	height: 600px;
+	width: 100%;
+	background-repeat: repeat-x;
+	color: red;
+	background-size: cover;
+	background-position: absolute;
+}
+
+#headport h1 {
+	width: 90%;
+	text-align: center;
+}
 /*Menu within header*/
+
+
 #menu {
 	position: relative;
 	top: 40px;

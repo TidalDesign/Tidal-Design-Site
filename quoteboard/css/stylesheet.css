@@ -1,0 +1,183 @@
+body {
+	background: url('../img/backgroundwood.jpg') repeat-y;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+a {
+	-webkit-transition: 0.25s color ease-out;
+	-moz-transition: 0.25s color ease-out;
+	transition: 0.25s color ease-out;
+	text-decoration: none;
+	color: white;
+}
+
+#navbar {
+	background-color: rgba(0,0,0,0.75);
+	height: 40px;
+	width: 100%;
+	padding-top: 5px;
+	z-index: 100;
+	position: fixed;
+	text-align: right;
+	top: 0;
+	left: 0;
+}
+
+#navbar ol {
+	margin: 5px 0 0 0;
+	padding-right: 3.5%;
+}
+
+#navbar li {
+	display: inline;
+	font-size: 0.8em;
+	padding: 5px 15px 5px;
+}
+
+#navbar li a:hover {
+	color: #65bad7;
+}
+
+#navbar li a {
+	text-decoration: none;
+	color: white;
+	text-shadow: none;
+	font-size: 1.7em;
+}
+
+
+#logo {
+	background: url('../img/stickynote.png') no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 9em;
+	height: 9em;
+	font-size: 1.5em;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+	text-align: center;
+	margin: 5% auto 0;
+}
+
+#logo a {
+	-webkit-transition: 0.3s color ease-out;
+	-moz-transition: 0.3s color ease-out;
+	transition: 0.3s color ease-out;
+	color: #000;
+}
+
+#logo a:hover {
+	color: rgba(0,0,0,0.65); 
+}
+
+.corkboard {
+	background-color: rgba(30,30,30,0.90);
+	box-shadow: -20px 10px 10px rgba(0,0,0,0.75);
+	width: 90%;
+	min-height: 100%;
+	margin: 2.5% 5% 5%;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+#quotes {
+	
+}
+
+#next {
+	-webkit-transition: 0.3s color ease-out;
+	-moz-transition: 0.3s color ease-out;
+	transition: 0.3s color ease-out;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+}
+
+#next:hover {
+	color: #65bad7;
+	margin-top: 1%;
+}
+
+.quote, a.quote {
+	color: #65bad7;
+	font-size: 1.5em;
+	padding-left: 5%;
+}
+
+.quote p {
+	padding-left: 5%;
+}
+
+a.quote {
+	-webkit-transition: 0.3s color ease-out;
+	-moz-transition: 0.3s color ease-out;
+	transition: 0.3s color ease-out;
+}
+
+a.quote:hover {
+	color: #1090ac;
+}
+
+.corkboardsub {
+	background-color: rgba(30,30,30,0.90);
+	box-shadow: -20px 10px 10px rgba(0,0,0,0.76);
+	width: 80%;
+	height: 100%;
+	margin: 10%;
+	border-radius: 20px;
+	display: inline-block;
+}
+	
+
+/* Submit page */	
+
+#submitpage {
+	font-size: 1em;
+	color: white;
+	padding: 10%;
+}
+
+input, textarea {	
+	height: 20px;
+	text-align: left;
+	vertical-align: middle;
+	color: black;
+}
+
+textarea {
+	height: auto;
+	padding: 3px 7px;
+	font-size: 1.2em;
+	color: black;
+}
+			
+
+#submit {
+	color: rgba(51,51,51,1);
+	font-size: 1em;
+	padding: 15px 5px;
+	line-height: 0;
+	border: 2px solid white;
+}
+
+#submit:hover {
+	color: red;
+}
+
+
+.request {
+	background-color: white;
+	border: none;
+	color: black;
+	border-radius: 15px;
+	vertical-align: bottom;
+	white-space: normal;
+}
+.request INPUT,
+.request SELECT,
+.request TEXTAREA {
+	border-radius: 20px;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+/* End of submit Page */

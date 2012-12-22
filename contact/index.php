@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tidal Design</title>
+	<title>Tidal Design | Contact</title>
 	
 	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="http://tidaldesign.co/images/favicon.ico"/>
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
@@ -23,7 +25,7 @@
 	<div id="wrapper">
 		<header id="header">
 				<div id="logo">
-					<img src="../images/tidal.png" width="200px">
+					<img src="http://tidaldesign.co/images/Tidal.png" width="90px">
 				</div>
 				
 				<nav id="menu">
